@@ -3,12 +3,6 @@ import { Roboto, Lato } from 'next/font/google'
 import './globals.css'
 import { cn } from '@/lib/utils'
 
-const roboto = Roboto({
-  weight: '400',
-  subsets: ['latin'],
-  display: 'swap',
-})
-
 const lato = Lato({
   weight: '400',
   subsets: ['latin'],

@@ -1,11 +1,91 @@
-<svg width="540" height="300" viewBox="0 0 540 300" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <path d="M150 0L180 30L150 60L120 30L150 0Z" fill="#2D509E"/>
-  <path d="M210 60L240 90L210 120L180 90L210 60Z" fill="#2D509E"/>
-  <path d="M450 60L480 90L450 120L420 90L450 60Z" fill="#2D509E"/>
-  <path d="M510 120L540 150L510 180L480 150L510 120Z" fill="#2D509E"/>
-  <path d="M450 180L480 210L450 240L420 210L450 180Z" fill="#2D509E"/>
-  <path d="M390 240L420 270L390 300L360 270L390 240Z" fill="#2D509E"/>
-  <path d="M330 180L360 210L330 240L300 210L330 180Z" fill="#2D509E"/>
-  <path d="M90 60L120 90L90 120L60 90L90 60Z" fill="#2D509E"/>
-  <path d="M390 0L420 30L150 300L0 150L30 120L150 240L390 0Z" fill="#4185FF"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created using Karbon, part of Calligra: http://www.calligra.org/karbon -->
+
+<svg
+   width="102.4pt"
+   height="102.4pt"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="Chakra-flat.svg"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="pt"
+     showgrid="false"
+     inkscape:zoom="3.0452547"
+     inkscape:cx="94.409179"
+     inkscape:cy="72.900305"
+     inkscape:window-width="1536"
+     inkscape:window-height="790"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <defs
+     id="defs1" />
+  <g
+     id="layer1"
+     transform="translate(4.2667462,4.2662432)">
+    <g
+       id="g7937"
+       transform="translate(1.82974,1.05789)"
+       fill="none">
+      <path
+         id="path7946"
+         transform="matrix(0.344502,0,0,-0.348779,4.12159,121.711)"
+         fill="#ffffff"
+         d="M 337,168.5 C 337,261.56 261.56,337 168.5,337 75.44,337 -1.96109e-6,261.56 0,168.5 -1.96109e-6,75.44 75.44,0 168.5,0 261.56,0 337,75.44 337,168.5 Z" />
+      <path
+         id="path7948"
+         transform="matrix(0.329115,0,0,-0.333201,6.71445,119.086)"
+         fill="#1756b6"
+         d="M 337,168.5 C 337,261.56 261.56,337 168.5,337 75.44,337 -1.96109e-6,261.56 0,168.5 -1.96109e-6,75.44 75.44,0 168.5,0 261.56,0 337,75.44 337,168.5 Z" />
+      <g
+         id="g7930"
+         transform="translate(17.7274,18.6574)"
+         fill="none">
+        <path
+           id="path7811"
+           transform="matrix(0.310629,0,0,0.314486,39.0784,32.6895)"
+           fill="#ffffff"
+           fill-rule="evenodd"
+           d="m 141.863,81.3435 c 40.14,-29.0813 9.7,-27.5339 5.613,-74.00623 C 143.574,-37.0457 18.6887,138.257 0,46.1867 3.4347,124.352 101.342,110.701 141.863,81.3435 Z" />
+        <path
+           id="path7813"
+           transform="matrix(0.310629,0,0,0.314486,25.7597,40.8443)"
+           fill="#ffffff"
+           fill-rule="evenodd"
+           d="M 50.052,145.784 C 90.1139,174.972 79.2357,146.5 122.171,128.253 163.176,110.827 -42.1386,46.2253 39.6501,0 -33.6285,27.4212 9.60948,116.318 50.052,145.784 Z" />
+        <path
+           id="path7815"
+           transform="matrix(0.310629,0,0,0.314486,0.181052,30.2975)"
+           fill="#ffffff"
+           fill-rule="evenodd"
+           d="M 4.81846,79.1466 C -10.5617,126.267 13.1552,107.123 43.7766,142.319 73.0214,175.931 71.0156,-39.2972 140.253,24.2042 91.5292,-37.0143 20.3448,31.578 4.81846,79.1466 Z" />
+        <path
+           id="path7817"
+           transform="matrix(0.310629,0,0,0.314486,3.54478,7.29825)"
+           fill="#ffffff"
+           fill-rule="evenodd"
+           d="M 49.8445,1.97281e-4 C 0.277107,-0.0661027 25.8131,16.5742 1.80311,56.5728 -21.1275,94.7732 182.947,26.3563 143.949,111.827 187.115,46.5713 99.8828,0.0670973 49.8445,1.97281e-4 Z" />
+        <path
+           id="path7819"
+           transform="matrix(0.310629,0,0,0.314486,45.1633,0.198339)"
+           fill="#ffffff"
+           fill-rule="evenodd"
+           d="M 77.9381,28.6263 C 62.684,-18.5355 54.7492,10.8927 9.28872,0.418073 -34.128,-9.58563 94.0029,163.359 0.663917,152.682 76.0653,173.57 93.3371,76.2363 77.9381,28.6263 Z" />
+      </g>
+    </g>
+  </g>
 </svg>
