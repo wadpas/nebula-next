@@ -50,3 +50,18 @@ export async function createTicket(
     }
   }
 }
+
+export async function getTickets() {
+  try {
+    const tickets = await db.ticket.findMany({
+      orderBy: { createdAt: 'desc' },
+    })
+    logEvent('Tickets fetched successfully', 'ticket', { count: tickets.length }, 'info')
+
+    return tickets
+  } catch (error) {
+    logEvent('An error occurred while getting the tickets', 'ticket', {}, 'error', error)
+
+    return []
+  }
+}

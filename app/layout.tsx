@@ -1,9 +1,10 @@
 import type { Metadata } from 'next'
-import { Roboto, Lato } from 'next/font/google'
+import { Rubik } from 'next/font/google'
 import './globals.css'
 import { cn } from '@/lib/utils'
+import { Toaster } from 'sonner'
 
-const lato = Lato({
+const lato = Rubik({
   weight: '400',
   subsets: ['latin'],
   display: 'swap',
@@ -23,7 +24,10 @@ export default function RootLayout({
     <html lang='en'>
       <body className={cn('font-sans antialiased', lato.className)}>
         <main className='flex flex-col min-h-screen bg-primary-foreground'>
-          <div className='flex-1 w-full p-4 mx-auto bg-background min-w-[320px] max-w-[1600px]'>{children}</div>
+          <div className='flex-1 w-full p-4 mx-auto bg-background min-w-[320px] max-w-[1600px]'>
+            {children}
+            <Toaster position='top-center' />
+          </div>
         </main>
       </body>
     </html>
