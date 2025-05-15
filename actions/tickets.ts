@@ -69,7 +69,7 @@ export async function getTickets() {
 export async function getTicketById(id: string) {
   try {
     const ticket = await db.ticket.findUnique({
-      where: { id: Number(id) },
+      where: { id },
     })
 
     if (!ticket) {
