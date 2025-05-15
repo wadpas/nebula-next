@@ -3,6 +3,7 @@ import { Rubik } from 'next/font/google'
 import './globals.css'
 import { cn } from '@/lib/utils'
 import { Toaster } from 'sonner'
+import Navbar from '@/components/Navbar'
 
 const lato = Rubik({
   weight: '400',
@@ -24,6 +25,7 @@ export default function RootLayout({
     <html lang='en'>
       <body className={cn('font-sans antialiased', lato.className)}>
         <main className='flex flex-col min-h-screen bg-primary-foreground'>
+          <Navbar />
           <div className='flex-1 w-full p-4 mx-auto bg-background min-w-[320px] max-w-[1600px]'>
             {children}
             <Toaster position='top-center' />

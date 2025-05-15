@@ -1,5 +1,5 @@
 import { getTickets } from '@/actions/tickets'
-import TicketItem from '@/components/common/TicketItem'
+import TicketItem from '@/components/TicketItem'
 import { redirect } from 'next/navigation'
 
 const TicketsPage = async () => {
