@@ -2,20 +2,9 @@
 
 import { createTicket } from '@/actions/tickets'
 import { useActionState, useEffect } from 'react'
-import { useRouter } from 'next/navigation'
-import { toast } from 'sonner'
 
 const NewTicket = () => {
   const [state, formAction] = useActionState(createTicket, { success: false, message: '' })
-
-  const router = useRouter()
-
-  useEffect(() => {
-    if (state.success) {
-      toast.success(state.message)
-      router.push('/tickets')
-    }
-  }, [state, router])
 
   return (
     <div className='flex items-center justify-center flex-1 h-screen'>

@@ -1,10 +1,10 @@
 import { getTickets } from '@/actions/tickets'
 import TicketItem from '@/components/TicketItem'
+import { getAuthCookie } from '@/lib/auth'
 import { redirect } from 'next/navigation'
-import { getCurrentUser } from '@/lib/users'
 
 const TicketsPage = async () => {
-  const user = await getCurrentUser()
+  const user = await getAuthCookie()
 
   if (!user) {
     redirect('/login')
