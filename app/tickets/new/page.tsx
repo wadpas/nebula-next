@@ -5,7 +5,7 @@ import { useActionState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import { toast } from 'sonner'
 
-const NewTicket = async () => {
+const NewTicket = () => {
   const [state, formAction] = useActionState(createTicket, { success: false, message: '' })
 
   const router = useRouter()
@@ -19,26 +19,26 @@ const NewTicket = async () => {
 
   return (
     <div className='flex items-center justify-center flex-1 h-screen'>
-      <div className='w-full max-w-md  bg-white shadow-md rounded-lg p-8 border border-gray-200'>
-        <h1 className='text-3xl font-bold mb-6 text-center text-blue-600'>Submit a Support Ticket</h1>
-        {state.message && !state.success && <p className='text-red-500 mb-4 text-center'>{state.message}</p>}
+      <div className='w-full max-w-md p-8 bg-white border border-gray-200 rounded-lg shadow-md'>
+        <h1 className='mb-6 text-3xl font-bold text-center text-blue-600'>Submit a Support Ticket</h1>
+        {state.message && !state.success && <p className='mb-4 text-center text-red-500'>{state.message}</p>}
         <form
           action={formAction}
           className='space-y-4 text-gray-700'>
           <input
-            className='w-full border border-gray-200 p-3 rounded focus:outline-none focus:ring-2 focus:ring-blue-400'
+            className='w-full p-3 border border-gray-200 rounded focus:outline-none focus:ring-2 focus:ring-blue-400'
             type='text'
             name='subject'
             placeholder='Subject'
           />
           <textarea
-            className='w-full border border-gray-200 p-3 rounded focus:outline-none focus:ring-2 focus:ring-blue-400'
+            className='w-full p-3 border border-gray-200 rounded focus:outline-none focus:ring-2 focus:ring-blue-400'
             name='description'
             placeholder='Describe your issue'
             rows={4}
           />
           <select
-            className='w-full border border-gray-200 p-3 rounded focus:outline-none focus:ring-2 focus:ring-blue-400 text-gray-700'
+            className='w-full p-3 text-gray-700 border border-gray-200 rounded focus:outline-none focus:ring-2 focus:ring-blue-400'
             name='priority'
             defaultValue='Low'>
             <option value='Low'>Low Priority</option>
@@ -46,7 +46,7 @@ const NewTicket = async () => {
             <option value='High'>High Priority</option>
           </select>
           <button
-            className='w-full bg-blue-600 text-white p-3 rounded hover:bg-blue-700 transition disabled:opacity-50'
+            className='w-full p-3 text-white transition bg-blue-600 rounded hover:bg-blue-700 disabled:opacity-50'
             type='submit'>
             Submit
           </button>

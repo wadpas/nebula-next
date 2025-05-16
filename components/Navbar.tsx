@@ -1,5 +1,6 @@
-import { getCurrentUser } from '@/lib/user'
+import { getCurrentUser } from '@/lib/users'
 import Link from 'next/link'
+import LogoutButton from './LogoutButton'
 
 const Navbar = async () => {
   const user = await getCurrentUser()
@@ -26,6 +27,7 @@ const Navbar = async () => {
               className='text-gray-700 transition hover:underline'>
               My Tickets
             </Link>
+            <LogoutButton />
           </>
         ) : (
           <>
