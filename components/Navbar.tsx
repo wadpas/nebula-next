@@ -1,10 +1,11 @@
+import { getCurrentUser } from '@/lib/user'
 import Link from 'next/link'
 
 const Navbar = async () => {
-  const user = true
+  const user = await getCurrentUser()
 
   return (
-    <nav className='bg-white border-b border-gray-200 px-6 py-4 flex justify-between items-center'>
+    <nav className='flex items-center justify-between px-6 py-4 bg-white border-b border-gray-200'>
       <div>
         <Link
           href='/'
@@ -17,12 +18,12 @@ const Navbar = async () => {
           <>
             <Link
               href='/tickets/new'
-              className='hover:underline text-gray-700 transition'>
+              className='text-gray-700 transition hover:underline'>
               New Ticket
             </Link>
             <Link
               href='/tickets'
-              className='hover:underline text-gray-700 transition'>
+              className='text-gray-700 transition hover:underline'>
               My Tickets
             </Link>
           </>
@@ -30,12 +31,12 @@ const Navbar = async () => {
           <>
             <Link
               href='/login'
-              className='text-blue-600 hover:underline transition'>
+              className='text-blue-600 transition hover:underline'>
               Login
             </Link>
             <Link
               href='/register'
-              className='bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition'>
+              className='px-4 py-2 text-white transition bg-blue-600 rounded hover:bg-blue-700'>
               Register
             </Link>
           </>
